@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+	<head> 
+		<title>My Webpage</title>
+		<script type = 'text/javascript' src = "script.js"> </script>
+	</head>
+	<body>
+
+		<h1 class = 'center'> My to do List </h1><br />
+		<label>Where the expence was made.</label> 
+		<br />
+
+		<input type = 'text' id = 'expenceMade'/> 
+		<br />
+
+		<label>The amount that was spent.</label>
+		<br />
+
+		<input type = 'text' id = 'amountSpent'/> 
+		<br />
+
+		<label>The date the amount was spent.</label>
+		<br />
+
+		<input type = 'date' id = 'theDate'/>
+		<br /> 
+
+		<input type = 'button' onclick = 'addExpence()' value = 'Add Expence'/>
+		<br />
+
+		<table id = 'expences'>
+			<tr>
+				<th>Expence Made</th>
+				<th>Amount Spent</th>
+				<th>The Date</th>
+				<th> </th>
+			</tr>
+		</table>
+	</body>
+</html>
